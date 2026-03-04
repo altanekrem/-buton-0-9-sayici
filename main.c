@@ -63,9 +63,9 @@ static void MX_GPIO_Init(void);
   */
 int main(void)
 {
-  /* USER CODE BEGIN 1 */
+  /* USER CODE BEGIN */
 
-  /* USER CODE END 1 */
+  /* USER CODE END */
 
   /* MCU Configuration--------------------------------------------------------*/
 
@@ -85,9 +85,9 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  /* USER CODE BEGIN 2 */
+  /* USER CODE BEGIN */
 
-  /* USER CODE END 2 */
+  /* USER CODE END */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
@@ -112,7 +112,7 @@ int main(void)
 
   	              switch (sayac)
   	              {
-                      case -1:sayac=0; break;
+                     
 
   	              	  case 0: GPIOB->ODR=0x7700; break;
 
@@ -143,9 +143,9 @@ int main(void)
 
     /* USER CODE END WHILE */
 
-    /* USER CODE BEGIN 3 */
+    /* USER CODE BEGIN */
  }
-  /* USER CODE END 3 */
+  /* USER CODE END */
 
 /**
   * @brief System Clock Configuration
@@ -237,9 +237,9 @@ static void MX_GPIO_Init(void)
 /* USER CODE END MX_GPIO_Init_2 */
 }
 
-/* USER CODE BEGIN 4 */
+/* USER CODE BEGIN */
 
-/* USER CODE END 4 */
+/* USER CODE END */
 
 /**
   * @brief  This function is executed in case of error occurrence.
@@ -272,3 +272,4 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
